@@ -339,27 +339,87 @@ margin: 24px 0 32px 0;
 }
         /* Donate section ends here */
 
-        
+        /* Subscribe section starts here */
+.subscribe{
+    height: 395px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-container{
+    margin: 60px auto;
+    width: 750px;
+    height: 235px;
+}
+.subscribe-container h4{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.subscribe-description{
+    width: 622px;
+    margin: 16px 0 24px 0;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.subscribe-input{
+    width: 750px;
+    height: 55px;
+    display: flex;   
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 25px;
 
+}
+.subscribe-input> input{
+    width: 600px;
+    border: none;
+    flex: 1;
+    outline: 0px;
+    margin-left: 20px;
+}
+.subscribe-input> button{
+    height: 55px;
+    margin-right: -10px;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+.subscribe-container .no-spam{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+        /* Subscribe section ends here */
 
-    /* Hover effet on buttons and card are here */
+        /* Hover effet on buttons and card are here */
 
-        button:hover{
-            cursor: pointer;
-            color: black;
-            background-color: rgb(101, 72, 231);
-            box-shadow: 2px 2px 15px 8px rgb(44, 61, 71) ;
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(101, 72, 231);
+    box-shadow: 2px 2px 15px 8px rgb(44, 61, 71) ;
             
-        }
-        .vision-card-1:hover{
-            background: aquamarine;
-            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-        }
-        .vision-card-2:hover{
-            background: rgb(199, 81, 81);
-            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-        }
-        .vision-card-3:hover{
-            background: rgb(213, 89, 224);
-            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-        }
+}
+.vision-card-1:hover{
+    background: aquamarine;
+    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+}
+.vision-card-2:hover{
+    background: rgb(199, 81, 81);
+    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+}
+.vision-card-3:hover{
+    background: rgb(213, 89, 224);
+    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+}
+
