@@ -234,5 +234,60 @@ select{
     color: rgb(14, 14, 14);
     font-size: 16px;
     font-weight: 500;
-    }
+}
         /* Opinion section ends here */
+
+        /* Recent News section starts here */
+.recent-news-subtitle{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.recent-news-container{
+    padding: 56px 48px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+}
+.recent-news-container img{
+    border-radius: 35px;
+}
+.recent-news-container .news-text h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+.recent-news-container .news-text img{
+    margin: 12px 0;
+}
+.date-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px;
+    padding: 0px;
+}
+.news-description{
+    width: 744px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.recent-news-container .news-text button{
+    padding: 13px 26px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+.recent-news-container-2{
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    margin: 24px 0px;
+}
+/* Recent News section ends here */
