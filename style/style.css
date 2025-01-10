@@ -71,3 +71,34 @@ header, main{
     font-weight: 600;
 }
         /* Banner section ends here */
+
+        /* Piller section starts here */
+h3{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 60px 0 32px 0;
+}
+.piller-container{  
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card{
+    width: 302px;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+.card-title{
+    margin: 25px 0 12px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+        /* Piller section ends here */
