@@ -3,12 +3,13 @@
 
 *{
     margin:0 auto;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: rgb(245, 245, 245);
+    padding: 0 10px;
+    box-sizing: border-box; 
+    font-family: Fira Sans;
 }
-body{
+header, main{
     width: 1280px;
+    background: rgb(245, 245, 245);
 }
 
         /* nav section starts here */
@@ -17,23 +18,56 @@ body{
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    padding: 14px 16px;
 }
 .nav-container .logo{
+    margin: 0px;
     color: black;
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
 }
 .nav-container .sign-in-btn{
+    margin: 0px;
     padding: 5px 10px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     color: rgb(0, 106, 80);
-    font-family: Fira Sans;
     font-size: 18px;
 }
         /* nav section starts here */
 
-        
-        /* nav section starts here */
+
+        /* Banner section starts here */
+.banner-container{
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+.banner-text{
+    width: 610px;
+}
+.banner-subtitle{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin: 16PX 0 24PX 0;
+}
+.banner-btn{
+    padding: 17PX 34PX;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+        /* Banner section ends here */
