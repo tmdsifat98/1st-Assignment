@@ -84,14 +84,14 @@ h3{
     justify-content: space-between;
     gap: 24px;
 }
-.card{
+.piller-card{
     width: 302px;
     padding: 24px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.card-title{
+.piller-card-title{
     margin: 25px 0 12px 0;
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
@@ -102,3 +102,85 @@ h3{
     font-weight: 400;
 }
         /* Piller section ends here */
+
+        /* Vision section starts here */
+.vision{
+    margin-top: 60px;
+}
+.vision h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.vision>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 32px 0;
+}
+.vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.vision-card{
+    width: 410.67px;
+    border-radius: 15px;
+    padding: 32px;
+}
+.vision-card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-card-2{
+    background: rgb(198, 228, 214)
+}
+.vision-card-3{
+    background: rgb(247, 235, 207);
+}
+.vision-card-header{
+    margin: 25px 0 12px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.vision-card>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.vision-card> button{
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+.quote-container{
+    height: 240px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: url(../assets/quote-bg.png) left 16px top 24px no-repeat, white;
+    margin-top: 32PX;
+    padding: 48px 10px;
+}
+.quote-container .speech{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quote-container h5{
+    margin: 12px 0 5px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+.quote-container .person-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+        /* Vision section ends here */
