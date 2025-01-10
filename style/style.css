@@ -158,24 +158,6 @@ h3{
     font-size: 16px;
     font-weight: 600;
 }
-button:hover{
-    color: black;
-    background-color: rgb(101, 72, 231);
-    box-shadow: 2px 2px 15px 8px rgb(44, 61, 71) ;
-    
-}
-.vision-card-1:hover{
-    background: aquamarine;
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-}
-.vision-card-2:hover{
-    background: rgb(199, 81, 81);
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-}
-.vision-card-3:hover{
-    background: rgb(213, 89, 224);
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
-}
 .quote-container{
     height: 240px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -290,4 +272,94 @@ select{
     padding-right: 20px;
     margin: 24px 0px;
 }
-/* Recent News section ends here */
+        /* Recent News section ends here */
+
+        /* Donate section starts here */
+.donate h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin: 24px 0 32px 0;
+}
+.donate-container{
+    display: flex;
+}
+.amount{
+    height: 128px;
+    width: 240px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+.amount:hover{
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+.manual-input{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+    
+}
+.manual-input-box{
+    padding: 19px 40px;
+    width: 1082px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    margin-right: auto;
+}
+        /* Donate section ends here */
+
+        
+
+
+    /* Hover effet on buttons and card are here */
+
+        button:hover{
+            cursor: pointer;
+            color: black;
+            background-color: rgb(101, 72, 231);
+            box-shadow: 2px 2px 15px 8px rgb(44, 61, 71) ;
+            
+        }
+        .vision-card-1:hover{
+            background: aquamarine;
+            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+        }
+        .vision-card-2:hover{
+            background: rgb(199, 81, 81);
+            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+        }
+        .vision-card-3:hover{
+            background: rgb(213, 89, 224);
+            box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+        }
