@@ -197,6 +197,9 @@ h3{
     background: rgb(255, 255, 255);
     padding: 32px;
 }
+.row-color{
+    background-color: rgb(198, 228, 214);
+}
 table, tr, th, td{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -205,7 +208,7 @@ table, tr, th, td{
     
 }
 .question{
-    width: 1017px;
+    width: 980px;
 }
 select{
     box-sizing: border-box;
@@ -276,6 +279,7 @@ select{
 
         /* Donate section starts here */
 .donate h2{
+    margin-top: 50px;
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
@@ -380,8 +384,8 @@ margin: 24px 0 32px 0;
 }
 .subscribe-input> input{
     width: 600px;
+    color: rgba(14, 14, 14, 0.4);
     border: none;
-    flex: 1;
     outline: 0px;
     margin-left: 20px;
 }
@@ -415,7 +419,7 @@ button:hover{
     box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
 }
 .vision-card-2:hover{
-    background: rgb(199, 81, 81);
+    background: rgb(241, 95, 127);
     box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
 }
 .vision-card-3:hover{
