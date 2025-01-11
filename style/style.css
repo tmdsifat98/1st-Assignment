@@ -27,14 +27,14 @@ header, main{
 }
 .nav-container .sign-in-btn{
     margin: 0px;
-    padding: 5px 10px;
+    padding: 12px 25px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     color: rgb(0, 106, 80);
     font-size: 18px;
+    transition: transform .2s;
 }
         /* nav section starts here */
-
 
         /* Banner section starts here */
 .banner-container{
@@ -69,6 +69,7 @@ header, main{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    transition: transform .2s;
 }
         /* Banner section ends here */
 
@@ -130,12 +131,15 @@ h3{
 }
 .vision-card-1{
     background: rgba(84, 144, 245, 0.2);
+    transition: transform .2s;
 }
 .vision-card-2{
-    background: rgb(198, 228, 214)
+    background: rgba(135, 221, 182, 0.788);
+    transition: transform .2s;
 }
 .vision-card-3{
     background: rgb(247, 235, 207);
+    transition: transform .2s;
 }
 .vision-card-header{
     margin: 25px 0 12px 0;
@@ -149,7 +153,7 @@ h3{
     font-weight: 400;
     margin-bottom: 24px;
 }
-.vision-card> button{
+.vision-card-1> button{
     padding: 11px 20px;
     border: none;
     border-radius: 8px;
@@ -157,6 +161,27 @@ h3{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
+    transition: transform .2s;
+}
+.vision-card-2> button{
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform .2s;
+}
+.vision-card-3> button{
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform .2s;
 }
 .quote-container{
     height: 240px;
@@ -269,6 +294,7 @@ select{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    transition: transform .2s;
 }
 .recent-news-container-2{
     flex-direction: row-reverse;
@@ -340,6 +366,7 @@ margin: 24px 0 32px 0;
     font-weight: 600;
     padding: 17px 34px;
     margin-right: auto;
+    transition: transform .2s;
 }
         /* Donate section ends here */
 
@@ -396,6 +423,7 @@ margin: 24px 0 32px 0;
     border: none;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
+    transition: transform .2s;
 }
 .subscribe-container .no-spam{
     color: rgba(14, 14, 14, 0.7);
@@ -412,19 +440,22 @@ button:hover{
     color: black;
     background-color: rgb(101, 72, 231);
     box-shadow: 2px 2px 15px 8px rgb(44, 61, 71) ;
-            
+    transform: scale(1.1);        
 }
 .vision-card-1:hover{
     background: aquamarine;
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+    box-shadow: 2px 2px 10px 13px rgb(120, 128, 126) ;
+    transform: scale(1.03);
 }
 .vision-card-2:hover{
-    background: rgb(241, 95, 127);
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+    background: rgba(223, 247, 86, 0.726);
+    box-shadow: 2px 2px 10px 13px rgb(120, 128, 126) ;
+    transform: scale(1.03);
 }
 .vision-card-3:hover{
     background: rgb(213, 89, 224);
-    box-shadow: 2px 2px 10px 10px rgb(120, 128, 126) ;
+    box-shadow: 2px 2px 10px 13px rgb(120, 128, 126) ;
+    transform: scale(1.03);
 }
 
         /* Footer section */
